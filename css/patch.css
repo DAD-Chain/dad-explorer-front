@@ -1,0 +1,12 @@
+.social-fans-list i {
+    font-size: 14px;
+}
+
+.dowhat-list > li {
+    /*width: auto;*/
+}
+
+.dowhat-list > li h4 {
+    padding: 0 12px;
+    text-align: center;
+}

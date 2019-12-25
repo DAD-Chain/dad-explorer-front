@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <meta name="description" content="DAD EXPLORER">
+    <meta name="keywords" content="DAD EXPLORER">
+    <title>DAD EXPLORER</title>
+    <link rel="shortcut icon" href="../files/favicon.ico"/>
+    <link rel="preload" as="font" href="../fonts/DINNextLTPro-Medium.ttf" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="../fonts/DINNextLTPro-Regular.ttf" type="font/woff2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="../css/block.css" />
+    <link rel="stylesheet" type="text/css" href="../css/trx.css" />
+    <link rel="stylesheet" type="text/css" href="../css/col5.css" />
+    <link rel="stylesheet" type="text/css" href="../css/allBlock.css" />
+    <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+    <script src="../lib/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $("#nav").load("nav.html"); 
+            $("#footer").load("footer.html"); 
+        });
+    </script>
+</head>
+<body>
+<div >
+    <div id="nav">
+</div>
+<div class="home">
+    <section class="section-blocks object">
+        <div class="container text-center">
+            <div class="col-sm-12 col-md-12 transactions-title">
+                <div class="panel-title title">
+                    Blocks
+                </div>
+                <div class="all-transactions">
+                    <span class="total-number"></span>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-12 section-table">
+            <table class="col-md-12">
+                <thead>
+                <tr>
+                    <th class="align-left">
+                        Height
+                    </th>
+                    <th class="align-left">
+                        TimeStamp
+                    </th>
+                    <th class="align-center">
+                        Txs
+                    </th>
+                    <th class="align-center">
+                        BookKeeper
+                    </th>
+                    <th class="align-right">
+                        Size(Byte)
+                    </th>
+                </tr>
+
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+            </table>
+
+            <div class="col-md-12 paginator">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="" id="jumpPage" oninput="value=value.replace(/[^\d]/g,'')">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button" id="jumpToButton">Go to</button>
+                    </span>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default" id="first-page">First</button>
+                    <button type="button" class="btn btn-default special-button" id="prev-page"><</button>
+                    <button type="button" class="btn btn-default">Page <span id="current_page"></span> of <span id="total_page"></span></button>
+                    <button type="button" class="btn btn-default special-button" id="next-page">> </button>
+                    <button type="button" class="btn btn-default" id="last-page">Last </button>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <div class="container text-center phone">
+        <div class="col-sm-12 col-md-12 transactions-title">
+            <div class="panel-title title">
+                Blocks
+            </div>
+            <div class="all-transactions">
+                <span class="total-number"></span> blocks in total
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12" id="cardbody">
+
+        </div>
+    </div>
+
+    <div >
+        <div id="footer">
+    </div>
+</div>
+<script src="../lib/jquery.qrcode.min.js"></script>
+<script src="../lib/bootstrap.min.js"></script>
+<script src="../lib/clipboard.min.js"></script>
+<script src="../lib/dad-dapi-sdk.js"></script>
+<script src="../js/dapi.js"></script>
+<script src="../lib/dropload.js"></script>
+<script src="../js/tools.js"></script>
+<script src="../js/apis.js"></script>
+<script src="../js/allblocks.js"></script>
+</body>
+</html>

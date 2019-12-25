@@ -1,0 +1,62 @@
+@import 'fonts.css';
+
+.trx-title{
+    display: flex;
+    align-items:center;
+    margin-bottom: 50px;
+}
+
+.block-title{
+    max-width: 1100px;
+    margin-bottom: 0;
+    width: auto;
+    font-size:24px;
+    font-family:DINNextLTProMedium;
+    font-weight:500;
+    color:rgba(27,233,185,1);
+    line-height:24px;
+    word-break: break-all;
+}
+
+.trx-copy{
+    font-size:18px;
+    font-family:DINNextLTProRegular;
+    font-weight:400;
+    color:rgba(27,233,185,1);
+    line-height:32px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: 5px;
+    top:50%;
+}
+
+.trx-copy span{
+    font-size:18px;
+    font-family:DINNextLTProRegular;
+    font-weight:400;
+    vertical-align: middle;
+    color:rgba(27,233,185,1);
+    height: 22px;
+    line-height:42px;
+    cursor: pointer;
+}
+
+.data code{
+    width: 500px;
+}
+
+.success{
+    color: #1BE9B9;
+}
+
+.fail{
+    color: #FF5555;
+}
+
+@media (max-device-width: 991px){
+    .block-title span{
+        font-size:18px;
+        line-height:20px;
+    }
+}
+

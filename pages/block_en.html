@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <meta name="description" content="DAD EXPLORER">
+    <meta name="keywords" content="DAD EXPLORER">
+    <title>DAD EXPLORER</title>
+    <link rel="shortcut icon" href="../files/favicon.ico"/>
+    <link rel="preload" as="font" href="../fonts/DINNextLTPro-Medium.ttf" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="../fonts/DINNextLTPro-Regular.ttf" type="font/woff2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="../css/block.css" />
+    <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+    <script src="../lib/jquery.min.js"></script>
+
+    <script>
+        $(function(){
+            $("#nav").load("nav.html"); 
+            $("#footer").load("footer.html"); 
+        });
+    </script>
+</head>
+<body>
+    <div >
+        <div id="nav">
+    </div>
+<div class="home">
+    <section class="section-block">
+        <div class="container text-center">
+            <div class="col-sm-12 col-md-12">
+                <div class="block-title">
+                    Block <span id="title-height">---</span>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading special">
+                        <div class="panel-title">
+                            Overview
+                        </div>
+                        <div class="more-button">
+                            <a href="allBlock_en.html">View All ></a>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="overview-item">
+                            <div class="col-md-2 tag">
+                                Height:
+                            </div>
+                            <div class="col-md-10 data" id="block_height">
+
+                            </div>
+                        </div>
+                        <div class="overview-item">
+                            <div class="col-md-2 tag">
+                                TimeStamp:
+                            </div>
+                            <div class="col-md-10 data" id="block_time">
+
+                            </div>
+                        </div>
+                        <div class="overview-item">
+                            <div class="col-md-2 tag">
+                                Hash:
+                            </div>
+                            <div class="col-md-10 data" id="hash">
+                                ---
+                            </div>
+                        </div>
+                        <div class="overview-item">
+                            <div class="col-md-2 tag">
+                                ParentHash:
+                            </div>
+                            <div class="col-md-10 data clickable" id="parent_hash">
+                                ---
+                            </div>
+                        </div>
+                        <div class="overview-item" id="extends">
+                            <div class="col-md-2 tag">
+                                BookKeeper:
+                            </div>
+                            <div class="col-md-10 data">
+                                <span id="bookkeepers">
+
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="overview-item">
+                            <div class="col-md-2 tag">
+                                Transactions:
+                            </div>
+                            <div class="col-md-10 data">
+                                <span id="txns_number">0 transaction in this block</span>
+                            </div>
+                        </div>
+                        <div class="overview-item">
+                            <div class="col-md-2 tag">
+                                Blocksize:
+                            </div>
+                            <div class="col-md-10 data" id="size">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div >
+        <div id="footer">
+    </div>
+</div>
+<script src="../lib/jquery.qrcode.min.js"></script>
+<script src="../lib/bootstrap.min.js"></script>
+<script src="../lib/dad-dapi-sdk.js"></script>
+<script src="../js/dapi.js"></script>
+<script src="../js/tools.js"></script>
+<script src="../js/apis.js"></script>
+<script src="../js/block.js"></script>
+</body>
+</html>

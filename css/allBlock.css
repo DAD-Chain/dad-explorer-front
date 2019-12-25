@@ -1,0 +1,212 @@
+@import 'fonts.css';
+
+.section-blocks{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+th{
+    color:white;
+    width: 16.5%;
+    font-size:18px;
+    font-family:DINNextLTProMedium;
+    font-weight:500;
+    color:rgba(198,220,255,1);
+    line-height:22px;
+    padding-top:28px;
+    padding-bottom: 22px;
+    text-align: center;
+}
+
+.form-control{
+    height: 32px !important;
+    background: transparent;
+    border-radius: 5px;
+    border-color: rgba(198,220,255,1);
+    color: rgba(198,220,255,1);
+}
+
+.table-head{
+    color:white;
+    width: 20%;
+    font-size:18px;
+    font-family:DINNextLTProMedium;
+    font-weight:500;
+    color:rgba(198,220,255,1);
+    line-height:22px;
+    padding-top:28px;
+    padding-bottom: 22px;
+}
+
+.input-group{
+    max-width: 180px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 20px;
+    float:right;
+}
+
+.line{
+    margin-top: 20px;
+    height: 2px;
+    width: 100%;
+    background: white;
+}
+
+.btn-default{
+    font-size:14px;
+    font-family:DINNextLTProRegular;
+    font-weight:400;
+    color:rgba(198,220,255,1);
+    line-height:18px;
+    background: #2D3848;
+    border: 1px solid rgba(198,220,255,1);
+}
+
+.btn-default:hover{
+    background: #1BE9B9;
+    color:rgba(21,30,45,1);
+    border-color: transparent;
+}
+
+.btn-default:focus{
+    font-size:14px;
+    font-family:DINNextLTProRegular;
+    font-weight:400;
+    color:rgba(198,220,255,1);
+    line-height:18px;
+    background: transparent;
+    border: 1px solid rgba(198,220,255,1);
+}
+
+.btn:active{
+    background: #1BE9B9 !important;
+    color:rgba(21,30,45,1) !important;
+    border-color: transparent !important;
+}
+
+.special-button{
+}
+
+.phone{
+    display: none;
+    margin-top: 100px;
+}
+
+
+.section-table{
+    background:rgba(45,56,72,1);
+    border: 1px;
+    border-radius:10px;
+}
+
+.paginator{
+    text-align: right;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+td{
+    font-size:18px;
+    font-family:DINNextLTProRegular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:22px;
+}
+
+table thead{
+    text-align: center;
+    border-bottom:1px solid rgba(21,30,45,1);
+    padding-left: 18px;
+    height: 60px;
+    padding-right: 18px;
+}
+
+table tbody{
+
+    text-align: center;
+}
+
+.table-items{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.table-items p{
+    margin-bottom: 0;
+    font-family:DINNextLTProRegular
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.clickable:hover{
+    color: #1BE9B9;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.table-row{
+    border-bottom:1px solid rgba(21,30,45,1);
+}
+
+.panel-body{
+    padding-top: 18px !important;
+    padding-bottom: 18px !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.panel-title{
+    color:#C6DCFF
+}
+
+.white-word{
+    color: white
+}
+
+.transactions-title{
+    margin-bottom: 32px;
+}
+
+.title{
+    font-size:24px;
+    font-family:DINNextLTProMedium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:29px;
+}
+
+.all-transactions{
+    font-size:18px;
+    font-family:DINNextLTProRegular;
+    font-weight:400;
+    margin-top: 8px;
+    color:rgba(198,220,255,0.4);
+    line-height:22px;
+    text-align: left;
+}
+
+
+@media screen and (max-device-width: 991px) {
+    .phone{
+        display: block;
+    }
+    .object{
+        display: none;
+    }
+    .data{
+
+    }
+}

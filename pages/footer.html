@@ -1,0 +1,83 @@
+
+<div class="modal fade" id="downloadModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-hidden="true">×
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    Tips
+                </h4>
+            </div>
+            <div class="modal-body">
+                Please install DAD wallet extension, and log in with DAD wallet, after that please do this operation again.
+            </div>
+            <div class="modal-footer">
+                <button type="button" id='downloadBtn' class="btn btn-default btn-download"
+                        data-dismiss="modal">Download
+                </button>
+                <button type="button" id='cancelBtn' class="btn btn-default btn-cancel">
+                    Cancel
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<div class="modal fade" id="warnModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-hidden="true">×
+                </button>
+                <h4 class="modal-title" id="myModalLabel1">
+                    Tips
+                </h4>
+            </div>
+            <div class="modal-body" id="modalWarnText">
+
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<div class="modal fade" id="loadingModal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content loading-content">
+            <div class="modal-body loading-body">
+                <img src="../img/loading.svg">
+                <p>Transferring...</p>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<div class="page-footer">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="footer-item">
+                <div class="footer-licenced">
+                    Copyright © 2018-2019 DAD.one
+                </div>
+                <div class="social-items">
+                    <div class="fb-item"></div>
+                    <div class="tele-item"></div>
+                    <div class="tw-item"></div>
+                    <div class="me-item"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="toast-wrap" id="success_toast">
+    <div class="toast-grid">
+        <img src="../img/right-green.png">
+        <p id="success_toast_text"></p>
+    </div>
+</div>
+<div class="toast-wrap" id="failed_toast">
+    <div class="toast-grid">
+        <img src="../img/error-red.png">
+        <p id="failed_toast_text"></p>
+    </div>
+</div>

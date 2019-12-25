@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <meta name="description" content="DAD EXPLORER">
+    <meta name="keywords" content="DAD EXPLORER">
+    <title>DAD EXPLORER</title>
+    <link rel="shortcut icon" href="../files/favicon.ico"/>
+    <link rel="preload" as="font" href="../fonts/DINNextLTPro-Medium.ttf" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="../fonts/DINNextLTPro-Regular.ttf" type="font/woff2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="../css/block.css" />
+    <link rel="stylesheet" type="text/css" href="../css/trx.css" />
+    <link rel="stylesheet" type="text/css" href="../css/allBlock.css" />
+    <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="../css/adWall.css" />
+    <script src="../lib/jquery.min.js"></script>
+
+    <script>
+        $(function(){
+            $("#nav").load("nav.html"); 
+            $("#footer").load("footer.html"); 
+        });
+    </script>
+</head>
+<body>
+<div >
+    <div id="nav">
+</div>
+
+<!-- <script type="text/javascript">
+    document.getElementById('adsCenter').style.color = '#40E7BB'
+</script> -->
+
+<div class="home">
+    <section class="section-blocks">
+        <div class="container text-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 adsWallShowSpecial">
+                <div class="col-sm-12 col-md-6 picture" >
+                    <img class="large-image" id="top1" src="../img/banner.jpg">
+                </div>
+                <div class="col-sm-12 col-md-6 right-add-show ">
+                    <div class="col-xs-6 col-sm-6 col-md-6 picture left-small-show">
+                        <img class="small-image" id="top2" src="../img/banner.jpg">
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 picture right-small-show">
+                        <img class="small-image" id="top3" src="../img/banner.jpg">
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 picture left-small-show">
+                        <img class="small-image" id="top4" src="../img/banner.jpg">
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 picture right-small-show">
+                        <a href="" id="topHref" target="_blank"><img id="topImage" class="small-image" src="../img/banner.jpg"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="statusSelector">
+                    <p id="selectName" class="indicator">Ads Wall </p>
+                    <div class="dropdown">
+                        <button class="selectToggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <p id="indicator">Click</p>
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-selector" aria-labelledby="dropdownMenu1">
+                            <li id="selectClick" class="first-selector">Click</li>
+                            <li id="selectWatch">Watch</li>
+                            <li id="selectInstall">Install</li>
+                            <li id="selectRegister">Register</li>
+                            <li id="selectOther" class="last-selector">Other</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 adsWallSpecial object" id="gridBody">
+
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 adsWallSpecial phone" id="cardBody">
+
+
+            </div>
+
+            <div class="col-xs-12 col-md-12 paginator object">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="" id="jumpPage" oninput="value=value.replace(/[^\d]/g,'')">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button" id="jumpToButton">Go to</button>
+                    </span>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default" id="first-page">First</button>
+                    <button type="button" class="btn btn-default special-button" id="prev-page"><</button>
+                    <button type="button" class="btn btn-default">Page <span id="current_page"></span> of <span id="total_page"></span></button>
+                    <button type="button" class="btn btn-default special-button" id="next-page">> </button>
+                    <button type="button" class="btn btn-default" id="last-page">Last </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div >
+        <div id="footer">
+    </div>
+</div>
+<script src="../lib/bootstrap.min.js"></script>
+<script src="../lib/dad-dapi-sdk.js"></script>
+<script src="../js/dapi.js"></script>
+<script src="../js/tools.js"></script>
+<script src="../js/apis.js"></script>
+<script src="../js/adWall.js"></script>
+</body>
+</html>

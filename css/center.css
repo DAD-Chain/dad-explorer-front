@@ -1,0 +1,381 @@
+.RevPanel{
+    height:116px !important;
+    background:rgba(45,56,72,1);
+    border-radius:10px;
+    margin-bottom: 32px;
+}
+
+.cardbody{
+    min-height: 553px;
+}
+
+.object1{
+    display: block;
+}
+
+
+
+.phone1{
+    display: none;
+}
+
+.section-table{
+
+}
+
+.smallCell{
+    width: 100px !important;
+    margin-left: 100px;
+}
+
+.column-padding{
+    padding-right: 30px;
+}
+
+.id-column{
+    padding-right: 30px;
+
+    padding-left: 25px;
+}
+
+.specialCell{
+    padding-right: 25px;
+    max-width: 150px;
+    word-wrap:break-word;
+}
+
+/*.table-items{*/
+/*    !*padding-left: 5px;*!*/
+/*    !*padding-right: 5px;*!*/
+/*    max-width: 150px;*/
+/*    word-wrap:break-word;*/
+/*}*/
+
+.section-blocks{
+    margin-top:128px;
+    min-height: 755px;
+}
+
+.statusSelector{
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    margin-bottom: 32px;
+}
+
+.selectToggle{
+    background-color: transparent;
+    justify-content : space-between;
+    display: flex;
+    width: 160px;
+    height:28px;
+    border-radius:5px;
+    border:1px solid rgba(255,255,255,1);
+    align-items: center;
+}
+
+.statusSelector .indicator{
+    padding-top: 10px;
+    font-size:18px;
+    font-family:DINNextLTProMedium,DINNextLTPro;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:18px;
+    margin-right: 8px;
+}
+
+.selectToggle p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size:14px;
+    font-family:HelveticaNeueMedium,HelveticaNeue;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:14px;
+}
+
+.selectToggle .caret{
+    color:rgba(255,255,255,1);
+}
+
+.dropdown-selector{
+    margin-top: 8px;
+    background:rgba(58,70,89,1);
+    box-shadow:0px 2px 4px 0px rgba(0,0,0,0.2);
+    border-radius:5px;
+    border:1px solid rgba(255,255,255,0.4);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dropdown-selector li{
+    font-family:DINNextLTProRegular,DINNextLTPro;
+    font-weight:400;
+    height: 40px;
+    color:rgba(171,182,200,1);
+    line-height:40px;
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+.dropdown-selector li:hover{
+    background-color:rgba(255,255,255,0.4);
+}
+
+.first-selector:hover{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.last-selector:hover{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.leftOne{
+    padding-left: 0px;
+    padding-right: 16px;
+}
+
+.rightOne{
+    padding-left: 16px;
+    padding-right: 0px;
+}
+
+.section-blocks{
+    margin-bottom: 61px;
+}
+
+a{
+    color: unset;
+}
+
+a:hover{
+    color: unset;
+    text-decoration:unset;
+}
+
+
+.revenue{
+    display: inline-flex;
+    align-items:center;
+}
+
+.revenue p{
+    line-height:40px;
+}
+
+th{
+    width: unset;
+    color:white;
+    font-size:18px;
+    font-family:DINNextLTProMedium;
+    font-weight:500;
+    color:rgba(198,220,255,1);
+    line-height:22px;
+    padding-top:28px;
+    padding-bottom: 22px;
+    text-align: center;
+}
+
+table{
+    table-layout: fixed;
+}
+
+.specialTh{
+    width: 16%;
+}
+
+.specialCell{
+    padding-right: 50px;
+    width: auto !important;
+    word-wrap: break-word;
+}
+
+.idCell{
+    width: 150px !important;
+}
+
+.actionCell{
+    width: 100px !important;
+}
+
+.timeCell{
+    width: 150px !important;
+}
+
+.statusCell{
+    width: 150px !important;
+}
+
+.collectButton{
+    display: inline-flex;
+    width:78px;
+    height:40px;
+    border-radius:5px;
+    border:1px solid rgba(64,231,187,1);
+    margin-left: 20px;
+
+    padding-left:20px;
+    font-size:14px;
+    font-family:HelveticaNeue-Medium,HelveticaNeue;
+    font-weight:500;
+    color:rgba(64,231,187,1);
+    line-height:40px;
+
+    cursor: pointer;
+}
+
+.collectButton:hover{
+    opacity: 0.8;
+}
+
+.specialSamllTh{
+    width: 10%;
+}
+
+.specialBigTh{
+    width: 16%;
+}
+
+.Block-item{
+    height: auto;
+}
+
+.RevPanel p{
+    text-align:left;
+    font-size: 14px;
+    font-family: DINNextLTProMedium,DINNextLTPro;;
+    font-weight: 500;
+    color: white;
+    line-height: 18px;
+    padding-left: 50px;
+    padding-top:24px;
+    margin-bottom: 0;
+}
+
+.renve-data{
+    font-family:DINNextLTProRegular,DINNextLTPro !important;
+    padding-left: 50px !important;
+    padding-top:16px !important;
+    font-weight: 500!important;
+    font-size:28px !important;
+    line-height:34px !important;
+}
+
+.info-addr-item::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color:#0062FF; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1.0em; /* Also needed for space (tweak if needed) */
+    font-size: 30px;
+    position: absolute;
+    top: 24px;
+    left: 32px;
+}
+
+.info-addr-item-new::before{
+    color: #00D4FC;
+    left: 48px;
+}
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .collectButton{
+        padding-left: 20px;
+        margin-left: 20px;
+    }
+    .column-padding{
+        padding-right: 15px;
+    }
+
+    .id-column{
+        padding-left: 10px;
+    }
+    .smallCell{
+        width: 70px !important;
+    }
+    .idCell{
+        width: 130px !important;
+    }
+
+    .statusCell{
+        width: 130px !important;
+    }
+
+    .actionCell{
+        width: 80px !important;
+    }
+
+    .timeCell{
+        width: 120px !important;
+    }
+
+    .specialCell{
+        padding-right: 20px;
+        width: 150px !important;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .container{
+        padding: 0;
+    }
+
+    .object1{
+        display: none;
+    }
+
+    .phone1{
+        display: block !important;
+    }
+
+    .leftOne{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .rightOne{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .info-addr-item::before{
+        left: 48px;
+    }
+
+    .info-addr-item-new::before{
+        left: 48px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+
+    .container{
+        padding: 16px;
+    }
+
+    .leftOne{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .rightOne{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .info-addr-item::before{
+        left: 64px;
+    }
+
+    .info-addr-item-new::before{
+        left: 64px;
+    }
+}

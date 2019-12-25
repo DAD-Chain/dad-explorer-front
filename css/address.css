@@ -1,0 +1,46 @@
+@import 'fonts.css';
+
+.panel-body{
+    padding-bottom: 0;
+}
+
+.all-transactions{
+    font-size:18px;
+    font-family:DINNextLTProRegular;
+    font-weight:400;
+    color:rgba(198,220,255,1);
+    line-height:22px;
+    text-align: left;
+    opacity: 0.4;
+
+}
+
+.transactions-title{
+    margin-bottom: 24px;
+}
+
+.first .tag{
+    padding-left: 0;
+}
+
+.phone .transactions-title{
+    padding: 0;
+}
+
+.section-blocks{
+    margin-top: 48px !important;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.cardbody{
+    padding: 0;
+}
+
+@media (max-device-width: 991px){
+    .overview-item .data{
+        padding-left: 0;
+    }
+}

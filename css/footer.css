@@ -1,0 +1,186 @@
+@import 'fonts.css';
+
+.footer-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-footer .footer-licenced{
+    text-align: left;
+    padding-bottom: 30px;
+    color: #C6DCFF;
+    font-size:14px;
+    font-family:DINNextLTProMedium;
+    font-weight:500;
+}
+
+.social-items{
+    display: flex;
+    width: auto;
+    height: 32px;
+}
+
+.fb-item{
+    background-image: url("../img/fb.png");
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.fb-item:hover{
+    background-image: url("../img/fb-hover.png");
+}
+
+.tele-item{
+    background-image: url("../img/telegram.png");
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.tele-item:hover{
+    background-image: url("../img/telegram-hover.png");
+}
+
+.tw-item{
+    background-image: url("../img/tw.png");
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.tw-item:hover{
+    background-image: url("../img/tw-hover.png");
+}
+
+.me-item{
+    background-image: url("../img/medium.png");
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.me-item:hover{
+    background-image: url("../img/medium-hover.png");
+}
+
+.modal-dialog{
+    margin-top: 278px;
+}
+
+.modal-content{
+    background:rgba(46,56,71,1);
+    box-shadow:0px 2px 5px 0px rgba(0,0,0,0.3);
+    border-radius:10px;
+}
+
+.modal-footer{
+    border-top: unset;
+}
+
+.modal-title{
+    font-size:18px;
+    font-family:DINNextLTProMedium,DINNextLTPro;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:22px;
+
+}
+
+.modal-header{
+    border-bottom: 1px solid #151E2D;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 24px;
+}
+
+.modal-body{
+    font-size:18px;
+    font-family:DINNextLTProMedium,DINNextLTPro;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:24px;
+
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 24px;
+}
+
+.loading-body{
+    margin-top: 50px;
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.loading-body img{
+    margin-left: 180px;
+    height: 24px;
+    width: 24px;
+}
+
+.loading-body p{
+    margin-left: 16px;
+    font-size:24px;
+    margin-top: 12px;
+}
+
+.loading-content{
+    background-color: transparent;
+    border: 0px;
+    border-color: transparent;
+    box-shadow:unset;
+    border-image-width: 0px;
+
+}
+
+.close{
+    opacity: 1;
+    color:white;
+    text-shadow:unset;
+    border: unset;
+}
+
+.close:hover{
+    color:white;
+    opacity: 1;
+}
+
+.btn-download{
+    border-radius:4px;
+    border:1px solid rgba(64,231,187,0.4);
+    font-size:14px;
+    background-color: transparent;
+    font-family:PingFangSCMedium,PingFang SC;
+    font-weight:500;
+    color:rgba(64,231,187,1);
+    line-height:20px;
+}
+
+.btn-download:hover{
+    background-color: unset;
+    border:1px solid rgba(64,231,187,0.4);
+    color:#40E7BB;
+}
+
+.btn-cancel{
+    font-size:14px;
+    font-family:PingFangSCMedium,PingFang SC;
+    font-weight:500;
+    color:rgba(198,220,255,1);
+    line-height:20px;
+    border-radius:4px;
+    background-color: transparent;
+    border:1px solid rgba(198,220,255,0.4);
+    margin-left: 24px !important;
+}
+
+.btn-cancel:hover{
+    background-color: unset;
+    color:rgba(198,220,255,1);
+    border:1px solid rgba(198,220,255,0.4);
+}

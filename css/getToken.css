@@ -1,0 +1,35 @@
+.input-group{
+    max-width: 694px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 135px;
+    float:none
+}
+
+.form-control{
+    max-width: 694px;
+    height: 54px !important;
+    color: black;
+    border-radius: 10px;
+}
+
+.getTokenTip{
+    margin-top: 32px;
+    margin-bottom: 274px;
+    color: #fff;
+    font-size:14px;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:24px;
+}
+
+.getTokenFooter{
+    width: 100%;
+    bottom:20px;
+    position: absolute;
+}
+
+

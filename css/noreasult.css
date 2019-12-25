@@ -1,0 +1,54 @@
+@import 'fonts.css';
+.section-no{
+    padding-top: 200px;
+}
+
+.title{
+    font-size:24px;
+    font-family:DINNextLTProRegular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:24px;
+}
+
+.tips{
+    font-size:18px;
+    font-family:DINNextLTProRegular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:24px;
+    margin-bottom: 33px;
+}
+
+.backButton{
+    width:120px;
+    height:40px;
+    border-radius:5px;
+    border:1px solid rgba(27,233,185,1);
+    font-size:18px;
+    font-family:DINNextLTProRegular;
+    font-weight:400;
+    color:rgba(27,233,185,1);
+    line-height:40px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-bottom: 150px;
+}
+
+.backButton:hover{
+    background: rgba(27,233,185,1);
+    color:white;
+}
+
+img{
+    width: 100%;
+    max-width: 384px;
+}
+
+@media screen and (max-device-width: 991px) {
+    .section-no{
+        padding-top: 100px;
+    }
+}
+
+
